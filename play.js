@@ -1,6 +1,10 @@
-var name = 'Paul'; //string
-var age = 36; //number
-var hasHobbies = true //boolean;
+// var is outdated, const is unchangeable, let can be modified.
+
+const name = 'Paul'; //string
+let age = 36; //number
+const hasHobbies = true //boolean;
+
+age = 21;
 
 // console.log(name);
 
