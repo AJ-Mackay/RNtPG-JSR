@@ -16,5 +16,17 @@ const hobbies = ['Reading', 'Puzzles'];
 // console.log(hobbies.map(hobby => 'Hobby: ' + hobby));
 // console.log(hobbies);
 
-hobbies.push('Programming');
-console.log(hobbies);
+// hobbies.push('Programming');
+// console.log(hobbies);
+
+// const copiedArray = hobbies.slice();
+const copiedArray = [...hobbies]; // Spread Operator = ... (used to copy)
+console.log(copiedArray);
+const copiedPerson = {...person};
+console.log(copiedPerson);
+
+const toArray = (...args) => { // Rest Operator = ... (used to merge)
+    return args;
+};
+
+console.log(toArray(1, 2, 3, 4));
